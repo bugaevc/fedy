@@ -1,0 +1,17 @@
+{
+	"icon": "utilities-terminal",
+	"label": "Powerline",
+	"description": "Powerful, flexible and beautiful bash prompt.",
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "bash install.sh"
+		},
+		"undo": {
+			"label": "Uninstall",
+			"command": "bash uninstall.sh"
+		},
+		"status": { "command": "bash status.sh" }
+	}
+}
